@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">AdvancedSampleApp</string>
+    <string name="app_name">Advanced SDK Sample</string>
+    <string name="berbix_content_description_take_picture">Take Picture</string>
 </resources>
