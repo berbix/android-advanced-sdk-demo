@@ -5,6 +5,17 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
 }
 
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        // Existing repositories, like google() and jcenter()
+        maven {
+            url "https://storage.googleapis.com/berbix-mobile-releases/repo"
+        }
+    }
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
